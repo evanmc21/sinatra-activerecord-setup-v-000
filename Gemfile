@@ -3,7 +3,7 @@ source "https://rubygems.org"
 
 gem 'sinatra'
 gem 'activerecord', '4.2.5' #gives us access to the magical database mapping and association powers.
-gem 'sinatra-activerecord'
+gem 'sinatra-activerecord' #gives us access to some awesome Rake tasks.
 gem 'rake' # short for "ruby make", is a package that lets us quickly create files and folders, and automate tasks such as database creation
 gem 'thin'
 gem 'require_all'
